@@ -1,5 +1,5 @@
 [build]
-publish="dist/ai-studio-angular-app"
+publish="dist/ai-studio-angular-app/browser"
 [[redirects]]
 from="/*"
 to="/index.html"
