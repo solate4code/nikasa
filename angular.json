@@ -10,7 +10,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "app": {
+    "nikasa": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -68,10 +68,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "app:build:production"
+              "buildTarget": "nikasa:build:production"
             },
             "development": {
-              "buildTarget": "app:build:development"
+              "buildTarget": "nikasa:build:development"
             }
           },
           "defaultConfiguration": "development"
